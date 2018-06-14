@@ -186,15 +186,34 @@ body {
   width:100%;
   
 }
+p {
+  margin:auto;
+}
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media screen and (min-width: 600px) {
+  article {
+    width:80%;
+    height:auto;
+} 
 
+article hr {
+    width:80%;
+}
 } 
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media screen and (min-width: 768px) {
 
+  article {
+    width:90%;
+    height:auto;
+} 
+
+article hr {
+    width:90%;
+}
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
